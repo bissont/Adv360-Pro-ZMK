@@ -8,7 +8,7 @@ macro_login: macro_login{
 compatible = "zmk,behavior-macro";
 label = "macro_login";
 #binding-cells = <0>;
-bindings = <&kp T>, <&kp B>, <&kp I>, <&kp S>, <&kp S>, <&kp O>, <&kp N>, <&kp AMPERSAND>, <&kp N>, <&kp V>, <&kp I>, <&kp A>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>;
+bindings = <&kp T>, <&kp B>, <&kp I>, <&kp S>, <&kp S>, <&kp O>, <&kp N>, <&kp AMPERSAND>, <&kp N>, <&kp V>, <&kp I>, <&kp D>, <&kp I>, <&kp A>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
