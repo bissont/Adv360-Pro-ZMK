@@ -1,3 +1,15 @@
+macro_labuser: macro_labuser{
+compatible = "zmk,behavior-macro";
+label = "macro_labuser";
+#binding-cells = <0>;
+bindings = <&kp L>, <&kp A>, <&kp B>, <&kp U>, <&kp S>, <&kp E>, <&kp R>;
+};
+macro_rladmin: macro_rladmin{
+compatible = "zmk,behavior-macro";
+label = "macro_rladmin";
+#binding-cells = <0>;
+bindings = <&kp R>, <&kp L>, <&kp A>, <&kp D>, <&kp M>, <&kp I>, <&kp N>, <&kp NUMBER_1>, <&kp NUMBER_2>, <&kp NUMBER_3>;
+};
 macro_mainpw: macro_mainpw{
 compatible = "zmk,behavior-macro";
 label = "macro_mainpw";
@@ -9,18 +21,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_login";
 #binding-cells = <0>;
 bindings = <&kp T>, <&kp B>, <&kp I>, <&kp S>, <&kp S>, <&kp O>, <&kp N>, <&kp AMPERSAND>, <&kp N>, <&kp V>, <&kp I>, <&kp D>, <&kp I>, <&kp A>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>;
-};
-macro_dquotes: macro_dquotes{
-compatible = "zmk,behavior-macro";
-label = "macro_dquotes";
-#binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-};
-macro_braces: macro_braces{
-compatible = "zmk,behavior-macro";
-label = "macro_braces";
-#binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
 };
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
