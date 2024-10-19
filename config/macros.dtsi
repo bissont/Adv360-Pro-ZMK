@@ -14,7 +14,7 @@ macro_mainpw: macro_mainpw{
 compatible = "zmk,behavior-macro";
 label = "macro_mainpw";
 #binding-cells = <0>;
-bindings = <&sk LSHFT>, <&kp N>, <&kp I>, <&kp HASH>, <&kp NUMBER_1>, <&kp NUMBER_1>, <&kp F>, <&kp T>, <&kp B>, <&kp J>, <&kp A>, <&kp K>, <&kp E>;
+bindings = <&sk LSHFT>, <&kp N>, <&kp I>, <&kp AMPERSAND>, <&kp NUMBER_1>, <&kp NUMBER_1>, <&kp F>, <&kp T>, <&kp B>, <&kp J>, <&kp A>, <&kp K>, <&kp E>;
 };
 macro_login: macro_login{
 compatible = "zmk,behavior-macro";
